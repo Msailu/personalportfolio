@@ -33,8 +33,16 @@ nav >ul> li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     background-color: black;
-    text-align: center;
     
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(1%, 35%);
+    
+  
+}
+#top>p{
+    color:red;
 }
 
 .work{
@@ -45,6 +53,9 @@ nav >ul> li {
     background-color: rgb(124, 90, 245);
    
    
+}
+h2{
+    padding: 15px;
 }
 .projdesc{
     display:inline-block;
@@ -73,6 +84,12 @@ footer>img{
         height:50px;
         border: 10px solid black;
    
+}
+.btngrp{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,70%);
 }
 /*
 footer {
